@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pageback"
+    tools:context=".signup">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/parrot" />
+
+    <EditText
+        android:id="@+id/nameBox"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/tamplate"
+        android:hint="Enter Name"
+        android:padding="5dp"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/phonebox"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/tamplate"
+        android:hint="Enter Name"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/emailbox"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/tamplate"
+        android:hint="Enter Name"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/passbox"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/tamplate"
+        android:hint="Enter Name"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <EditText
+        android:id="@+id/birthbox"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/tamplate"
+        android:hint="Enter Name"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:inputType="date"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#2050BB"
+        android:text="SIGN UP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birthbox" />
+
+    <Button
+        android:id="@+id/logthr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#00121B"
+        android:text="I Have Already An Account"
+        android:textColor="#2050BA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
